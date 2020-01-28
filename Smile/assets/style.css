@@ -89,3 +89,22 @@ width: 5%;
 .paragraphe1 p{
     margin-top: 50px;
 }
+.fond {
+    background-color: rgb(255, 233, 226);
+    width: auto;
+    height: 765px;
+}
+.para1{
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.para2{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.couple img{
+    
+    width: 950px;
+}
