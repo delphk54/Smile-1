@@ -25,8 +25,19 @@ var{
     padding: 0;
     vertical-align: baseline; }
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header{
     background-image: url(/ourson.png);
+    background-size: cover;
+    height: 1100px;
+    background-color: rgba( 234, 226, 209, 0.5);
+}
+header img{
+   width: 150px;
+   margin-top: 50px;
 }
 .fa-1x {
     font-size: 1.5rem;
@@ -38,3 +49,43 @@ header{
     color: white;
     }
    
+.entete h1{
+    font-size: 160px;
+    color: white;
+    font-weight: lighter;  
+    margin-top: 300px;
+}  
+.entete h2{
+    color: white;
+}
+.carousel-indicators{
+    margin-bottom: -400px;
+    
+}
+
+.trait{
+  
+margin: auto; 
+background-color: black;
+height: 1px;
+width: 5%;
+}
+.paragraphe1{
+    margin-top: 100px;
+    text-align: center;
+}
+.paragraphe1 h2{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.paragraphe1 h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.paragraphe1 h4{
+    font-weight: bold;
+    margin-top: 40px;
+}
+.paragraphe1 p{
+    margin-top: 50px;
+}
