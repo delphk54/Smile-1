@@ -95,8 +95,8 @@ width: 5%;
     height: 765px;
 }
 .para1{
-    
-    font-size: 20px;
+    padding-top: 200px;
+    font-size: 30px;
     font-weight: bold;
 }
 .para2{
@@ -107,4 +107,59 @@ width: 5%;
 .couple img{
     
     width: 950px;
+}
+.reasons{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.trait2{
+    margin-top: 130px;
+    margin-left: -22%;
+    background-color: black;
+    height: 1px;
+    width: 5%;
+    }
+
+.grid{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+
+}
+.box1{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: solid 1px grey;
+    border-width: 1px 0 0 1px;
+}
+.box2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: solid 1px grey;
+    border-width:1px 1px 0 1px;
+}
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: solid 1px grey;
+    border-width: 1px 0 1px 1px;
+}
+.box4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: solid 1px grey;
+    
 }
