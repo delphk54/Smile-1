@@ -201,8 +201,55 @@ width: 5%;
 }
 .img-mains p{
     padding-top: 400px;
+    text-align: center;
     margin: auto;
     color: white;
     font-size: 60px;
     font-weight: 100;
+}
+.grid2{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50vh;
+    grid-gap: 40px;
+   
+    
+}
+.img1{
+    background-image: url(/homme-costume-opaq.png);
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.img2{
+    background: url(/homme-montagne-opaq.png);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+
+.img3{
+    background-image: url(/cafe-opaq.png);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+
+.img4{
+    background-image: url(/homme-lunettes-opaq.png);
+    background-size: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end:3;
 }
