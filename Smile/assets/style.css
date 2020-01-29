@@ -264,6 +264,11 @@ width: 5%;
     font-weight: 100;
     line-height: 2;
 }
+.grid2 button{
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 10%;
+}
 .img2 h4{
     font-size: 30px;
     font-weight: bolder;
@@ -292,7 +297,6 @@ footer{
     background-color: rgb(242, 244, 245);
 }
 .footer2{
-   
     background-color: rgb(170, 165, 165);
     color: rgb(70, 70, 70);
 }
@@ -302,4 +306,12 @@ footer{
 .icone{
     display: flex;
     justify-content: space-between;
+}
+
+.img3 button{
+    margin-top: 265px;
+}
+.img4 button{
+    margin-top: 220px;
+    margin-left: 350px;
 }
