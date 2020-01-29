@@ -266,7 +266,7 @@ width: 5%;
 }
 .grid2 button{
     text-align: center;
-    margin-top: 35%;
+    margin-top: 40%;
     margin-left: 10%;
 }
 .img2 h4{
@@ -308,10 +308,8 @@ footer{
     justify-content: space-between;
 }
 
-.img3 button{
-    margin-top: 265px;
-}
+
 .img4 button{
-    margin-top: 220px;
+    margin-top: 240px;
     margin-left: 350px;
 }
